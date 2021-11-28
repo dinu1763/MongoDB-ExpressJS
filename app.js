@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 */ 
 
 const connect = () =>{
-    return mongoose.connect("mongodb+srv://dinu1763:Kums1763@cluster0.6tcqa.mongodb.net/test")
+    return mongoose.connect("mongodb+srv://dinu1763:********@cluster0.6tcqa.mongodb.net/test")
 }
 
 const app = express();
